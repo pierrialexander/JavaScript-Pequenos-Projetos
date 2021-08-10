@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(224, 215, 215);
+}
+
+main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  background-color: rgb(218, 218, 74);
+  box-shadow: 0px 10px 50px black;
+}
+
+.title {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.input, input:focus {
+  outline: 0;
+  margin: 0px;
+  text-align: center;  
+  text-align-last: center;
+}
+
+.result {
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.247);
+  height: 100px;
+  width: 70%;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+}
+
+label {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.3rem;
+  margin-right: 15px;
+}
+
+#nome, #peso, #altura {
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+#lblPeso {
+  margin-right: 28px;
+}
+
+#calcular {
+  padding: 15px;
+  width: 70%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+  border-radius: 10px;
+  font-weight: 600;
+  background-color: rgb(134, 134, 27);
+  border: none;
+  color: white;
+  letter-spacing: 2px;
+}
+
+#calcular:hover {
+  padding: 15px;
+  width: 70%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+  border-radius: 10px;
+  font-weight: 600;
+  background-color: rgb(201, 201, 35);
+  border: none;
+  color: rgb(65, 56, 56);
+  letter-spacing: 2px;
+}
