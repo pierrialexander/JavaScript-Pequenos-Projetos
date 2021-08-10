@@ -73,6 +73,7 @@ label {
 }
 
 #calcular {
+  outline: 0;
   padding: 15px;
   width: 70%;
   font-family: 'Ubuntu', sans-serif;
