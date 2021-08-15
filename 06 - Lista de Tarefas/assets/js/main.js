@@ -57,6 +57,9 @@ document.addEventListener('click', function (e) {
 
 })
 
+
+
+//----------------------------------------------------------
 function salvarTarefas() {
   const liTarefas = tarefas.querySelectorAll('li')
   const listaDeTarefas = []
